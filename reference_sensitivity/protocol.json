@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "primary_targets": ["CTSD", "TPP1"],
+  "combination_pool": ["ASAH1", "GAA", "PLD3", "CTSB", "PPT1"],
+  "combination_size": 3,
+  "reference_mode": "frozen_annotation_complete",
+  "references": {},
+  "secondary": {
+    "name": "C1q complement recognition complex",
+    "targets": ["C1QA", "C1QB", "C1QC"],
+    "references": {
+      "C1_associated_proteases": ["C1R", "C1S"],
+      "complement_C3": ["C3"]
+    },
+    "rationale": "C1q is the recognition component of the classical complement pathway. C1r/C1s and C3 define two specified biological comparisons. Measure regional protein abundance and paired coverage for these exact lists.",
+    "sources": [
+      "https://doi.org/10.4049/jimmunol.167.11.6374",
+      "https://doi.org/10.1126/science.aad8373"
+    ],
+    "selection": "Lists fixed during software development before inspecting their effect estimates. Prior exploratory access to these datasets is disclosed. This application is exploratory.",
+    "interpretation": "Regional normalized protein abundance. Complement activation, molecular assembly and cell of origin require additional evidence. Cross-study donor independence is unresolved."
+  }
+}

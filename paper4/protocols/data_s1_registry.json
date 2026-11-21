@@ -1,0 +1,128 @@
+[
+  {
+    "file": "Data_S1/fixed_estimates.csv",
+    "contents": "Regional and relative estimates on donors complete for the entire target family",
+    "rows": 22,
+    "source": "verified follow-up run",
+    "sha256": "ff01f0d78393068803e602f0a58031389bb392a68ea6cc719f221e0a9e06e2c1"
+  },
+  {
+    "file": "Data_S1/fixed_donor_scores.csv",
+    "contents": "Individual regional and relative scores used in the common-donor analysis",
+    "rows": 770,
+    "source": "verified follow-up run",
+    "sha256": "c0e90639070724c84216028df1ed3261ceeb4967ab0767c026dd2eda5c8bcc6d"
+  },
+  {
+    "file": "Data_S1/fixed_decisions.csv",
+    "contents": "Decisions at zero and at the exploratory log2 margin of +0.2",
+    "rows": 24,
+    "source": "verified follow-up run",
+    "sha256": "c296e8f2b672dafb2e21899520298976ced8481067efc7eef43202a1ba4daabb"
+  },
+  {
+    "file": "Data_S1/family_coverage.csv",
+    "contents": "Donors with all target and reference members measured in both regions",
+    "rows": 12,
+    "source": "verified follow-up run",
+    "sha256": "0492f6249ac55c6a14917c32236379696346be08b7304a93bc893b21f9b2f126"
+  },
+  {
+    "file": "Data_S1/member_coverage.csv",
+    "contents": "Paired coverage of each named member and target",
+    "rows": 252,
+    "source": "verified follow-up run",
+    "sha256": "aa4f1196ffec2f80958f1e223f6366c0667eef2fdece2cc3d1c31c5c133105aa"
+  },
+  {
+    "file": "Data_S1/panel_specific.csv",
+    "contents": "Per-panel donor sets, availability, confidence intervals and their multiplicity family",
+    "rows": 60,
+    "source": "verified follow-up run",
+    "sha256": "405d0677941c4ee0b277870f282f3b6f7452451557101489e8dbe1d902fd046b"
+  },
+  {
+    "file": "Data_S1/genotype_coverage.csv",
+    "contents": "Known, unknown and eligible APOE genotypes within study group",
+    "rows": 6,
+    "source": "verified follow-up run",
+    "sha256": "cab4127cf44bfaa840c00a374456f8c33f7bda23878b5b8760644adbd67325fb"
+  },
+  {
+    "file": "Data_S1/genotype_donor_scores.csv",
+    "contents": "Individual primary, alternative and reference-switch scores in the genotype analysis",
+    "rows": 336,
+    "source": "verified follow-up run",
+    "sha256": "c3dd5ea49065c02ad7cad51aa84e7147f57ba79f09bd5f28a22e51577895e181"
+  },
+  {
+    "file": "Data_S1/genotype_estimates.csv",
+    "contents": "Welch tests, family membership and Holm adjustments",
+    "rows": 12,
+    "source": "verified follow-up run",
+    "sha256": "6521b5d8d966e5213656c48cbd308b1ecacd20870b6a93cb76f8e4907a9694eb"
+  },
+  {
+    "file": "Data_S1/equivalence.csv",
+    "contents": "Single exploratory equivalence test of the five-enzyme reference in Leitner AD",
+    "rows": 1,
+    "source": "verified follow-up run",
+    "sha256": "9b954820f229fda6d8bff3694733f38bb24679901b7623e3710daca2af250388"
+  },
+  {
+    "file": "Data_S1/reference_profiles.csv",
+    "contents": "Means and intervals using observed or four-group harmonized reference members",
+    "rows": 40,
+    "source": "verified follow-up run",
+    "sha256": "f61d3e629eda5fb75fa0a419cf112b8d0b59a379796278f052e798a10629bd0f"
+  },
+  {
+    "file": "Data_S1/reference_membership.csv",
+    "contents": "Original and shared comparator member lists and coverage",
+    "rows": 124,
+    "source": "verified follow-up run",
+    "sha256": "858cf27aa86354d3e47c68297cb00f6e755cd0428fb4710ad7aacbfca64537c6"
+  },
+  {
+    "file": "Data_S1/shared_reference_lists.csv",
+    "contents": "Cross-study intersections by reference class",
+    "rows": 5,
+    "source": "verified follow-up run",
+    "sha256": "e6d624899843eab2ae57d124a76520559e6d8b4470ee03dc30d1d60c336453bd"
+  },
+  {
+    "file": "Data_S1/background_proteins.csv",
+    "contents": "Gene-wise estimates and opposite-margin calls on measured backgrounds",
+    "rows": 6725,
+    "source": "verified follow-up run",
+    "sha256": "d01107661eb774c496830c617059654d2da697f83a74c74454341371dcb27138"
+  },
+  {
+    "file": "Data_S1/background_summary.csv",
+    "contents": "Counts, denominators and conditional donor-bootstrap intervals for direction changes",
+    "rows": 4,
+    "source": "verified follow-up run",
+    "sha256": "2ec1c9bbca7c6bebb07a1d3741ca9fccee12a87556630dbd960e7f2969c34ec4"
+  },
+  {
+    "file": "Data_S1/family_summary.csv",
+    "contents": "Extremes, reference spans and simultaneous lower and upper bounds on common donors",
+    "rows": 5,
+    "source": "publication_tables.py",
+    "sha256": "740b694e780198822220250586da315443487ca7306bb5282fef5affd435ad04"
+  },
+  {
+    "file": "Data_S1/candidate_coverage.csv",
+    "contents": "Forty-one EC 3 luminal candidates, paired donor counts, EC annotations and observed adjacent intensity",
+    "rows": 41,
+    "source": "publication_tables.py",
+    "sha256": "f7bc44bc415517f19ba2304fe91d5ea64a7f26be39ce802182bca5711c56a56b"
+  },
+  {
+    "file": "Data_S1/ordered_specifications.csv",
+    "contents": "Twenty ordered study-by-reference estimates and their memberships for Figure S8",
+    "rows": 20,
+    "source": "publication_tables.py",
+    "sha256": "ff7f295760f7489ae036758de67a4f2f22e1c8c709f5e8c0b5f870a8de230f2c"
+  }
+]

@@ -1,0 +1,666 @@
+[
+  {
+    "number": 1,
+    "label": "Table S1",
+    "title": "CTSD and TPP1 compared with the fixed pump panel",
+    "file": "Table_S01_fixed_panel.csv",
+    "source": "legacy/tables/01_fixed_panel.csv",
+    "rows": 4
+  },
+  {
+    "number": 2,
+    "label": "Table S2",
+    "title": "Target and reference regional components",
+    "file": "Table_S02_components.csv",
+    "source": "legacy/tables/02_components.csv",
+    "rows": 20
+  },
+  {
+    "number": 3,
+    "label": "Table S3",
+    "title": "Target-pair and individual-enzyme results across reference definitions",
+    "file": "Table_S03_reference_sets.csv",
+    "source": "legacy/tables/03_reference_sets.csv",
+    "rows": 48
+  },
+  {
+    "number": 4,
+    "label": "Table S4",
+    "title": "Observed reference membership",
+    "file": "Table_S04_reference_membership.csv",
+    "source": "legacy/tables/04_reference_membership.csv",
+    "rows": 948
+  },
+  {
+    "number": 5,
+    "label": "Table S5",
+    "title": "Shared measured background",
+    "file": "Table_S05_shared_background.csv",
+    "source": "legacy/tables/05_shared_background.csv",
+    "rows": 16
+  },
+  {
+    "number": 6,
+    "label": "Table S6",
+    "title": "Abundance matching for pump and luminal controls",
+    "file": "Table_S06_abundance_matching.csv",
+    "source": "legacy/tables/06_abundance_matching.csv",
+    "rows": 32
+  },
+  {
+    "number": 7,
+    "label": "Table S7",
+    "title": "Whole measured-background matching",
+    "file": "Table_S07_general_proteome_matching.csv",
+    "source": "legacy/tables/07_general_proteome_matching.csv",
+    "rows": 24
+  },
+  {
+    "number": 8,
+    "label": "Table S8",
+    "title": "Linked plaque and CAA comparisons",
+    "file": "Table_S08_linked_CAA.csv",
+    "source": "legacy/tables/08_linked_CAA.csv",
+    "rows": 3
+  },
+  {
+    "number": 9,
+    "label": "Table S9",
+    "title": "CAA reference comparisons",
+    "file": "Table_S09_CAA_references.csv",
+    "source": "legacy/tables/09_CAA_references.csv",
+    "rows": 12
+  },
+  {
+    "number": 10,
+    "label": "Table S10",
+    "title": "Paired CTSD-minus-TPP1 regional differences",
+    "file": "Table_S10_enzyme_difference.csv",
+    "source": "legacy/tables/10_enzyme_difference.csv",
+    "rows": 4
+  },
+  {
+    "number": 11,
+    "label": "Table S11",
+    "title": "Onset-group comparisons and brain-bank sensitivity",
+    "file": "Table_S11_onset.csv",
+    "source": "legacy/tables/11_onset.csv",
+    "rows": 6
+  },
+  {
+    "number": 12,
+    "label": "Table S12",
+    "title": "Xiong group-level enzyme comparison",
+    "file": "Table_S12_Xiong.csv",
+    "source": "legacy/tables/12_Xiong.csv",
+    "rows": 2
+  },
+  {
+    "number": 13,
+    "label": "Table S13",
+    "title": "EC annotation membership",
+    "file": "Table_S13_EC_membership.csv",
+    "source": "legacy/tables/13_EC_membership.csv",
+    "rows": 512
+  },
+  {
+    "number": 14,
+    "label": "Table S14",
+    "title": "Leave-one-comparator-out estimates",
+    "file": "Table_S14_leave_one_control_out.csv",
+    "source": "legacy/tables/14_leave_one_control_out.csv",
+    "rows": 86
+  },
+  {
+    "number": 15,
+    "label": "Table S15",
+    "title": "Donor robustness analyses",
+    "file": "Table_S15_donor_robustness.csv",
+    "source": "legacy/tables/15_donor_robustness.csv",
+    "rows": 20
+  },
+  {
+    "number": 16,
+    "label": "Table S16",
+    "title": "Exploratory grade associations",
+    "file": "Table_S16_grade_exploratory.csv",
+    "source": "legacy/tables/16_grade_exploratory.csv",
+    "rows": 3
+  },
+  {
+    "number": 17,
+    "label": "Table S17",
+    "title": "Annotation mapping and complete coverage",
+    "file": "Table_S17_coverage.csv",
+    "source": "legacy/tables/17_coverage.csv",
+    "rows": 16
+  },
+  {
+    "number": 18,
+    "label": "Table S18",
+    "title": "Reference estimates and sampling intervals",
+    "file": "Table_S18_reference_estimates.csv",
+    "source": "legacy/tables/18_reference_estimates.csv",
+    "rows": 20
+  },
+  {
+    "number": 19,
+    "label": "Table S19",
+    "title": "Reference span and interval widths",
+    "file": "Table_S19_reference_span.csv",
+    "source": "legacy/tables/19_reference_span.csv",
+    "rows": 4
+  },
+  {
+    "number": 20,
+    "label": "Table S20",
+    "title": "Influence of individual reference members",
+    "file": "Table_S20_influence.csv",
+    "source": "legacy/tables/20_influence.csv",
+    "rows": 86
+  },
+  {
+    "number": 21,
+    "label": "Table S21",
+    "title": "Fixed-donor reference substitutions",
+    "file": "Table_S21_locked_swaps.csv",
+    "source": "legacy/tables/21_locked_swaps.csv",
+    "rows": 5
+  },
+  {
+    "number": 22,
+    "label": "Table S22",
+    "title": "Donor scores for fixed substitutions",
+    "file": "Table_S22_locked_donors.csv",
+    "source": "legacy/tables/22_locked_donors.csv",
+    "rows": 165
+  },
+  {
+    "number": 23,
+    "label": "Table S23",
+    "title": "Protein mapping and coverage for substitution panels",
+    "file": "Table_S23_protein_map.csv",
+    "source": "legacy/tables/23_protein_map.csv",
+    "rows": 92
+  },
+  {
+    "number": 24,
+    "label": "Table S24",
+    "title": "Donor-level tissue comparison data",
+    "file": "Table_S24_tissue_donors.csv",
+    "source": "legacy/tables/24_tissue_donors.csv",
+    "rows": 168
+  },
+  {
+    "number": 25,
+    "label": "Table S25",
+    "title": "Adjusted tissue models and control-definition sensitivity",
+    "file": "Table_S25_tissue_models.csv",
+    "source": "legacy/tables/25_tissue_models.csv",
+    "rows": 54
+  },
+  {
+    "number": 26,
+    "label": "Table S26",
+    "title": "Coverage-threshold decomposition",
+    "file": "Table_S26_coverage_thresholds.csv",
+    "source": "legacy/tables/26_coverage_thresholds.csv",
+    "rows": 36
+  },
+  {
+    "number": 27,
+    "label": "Table S27",
+    "title": "Members and donor subsets at each coverage threshold",
+    "file": "Table_S27_threshold_members.csv",
+    "source": "legacy/tables/27_threshold_members.csv",
+    "rows": 19
+  },
+  {
+    "number": 28,
+    "label": "Table S28",
+    "title": "Candidate-level annotation and coverage audit",
+    "file": "Table_S28_class_members.csv",
+    "source": "legacy/tables/28_class_members.csv",
+    "rows": 980
+  },
+  {
+    "number": 29,
+    "label": "Table S29",
+    "title": "Class-specific effects and actual measured comparator lists",
+    "file": "Table_S29_class_effects.csv",
+    "source": "legacy/tables/29_class_effects.csv",
+    "rows": 20
+  },
+  {
+    "number": 30,
+    "label": "Table S30",
+    "title": "Three abundance-matched replacement designs",
+    "file": "Table_S30_random_benchmarks.csv",
+    "source": "legacy/tables/30_random_benchmarks.csv",
+    "rows": 24
+  },
+  {
+    "number": 31,
+    "label": "Table S31",
+    "title": "Descriptive concordance across study groups",
+    "file": "Table_S31_concordance.csv",
+    "source": "legacy/tables/31_concordance.csv",
+    "rows": 4
+  },
+  {
+    "number": 32,
+    "label": "Table S32",
+    "title": "Linked vascular donor records",
+    "file": "Table_S32_paired_vascular_donors.csv",
+    "source": "legacy/tables/paired_vascular_donors.csv",
+    "rows": 6
+  },
+  {
+    "number": 33,
+    "label": "Table S33",
+    "title": "Coverage of the targets and fixed-size comparator pool",
+    "file": "Table_S33_01_combination_coverage.csv",
+    "source": "enhancement/baseline/tables/01_combination_coverage.csv",
+    "rows": 28
+  },
+  {
+    "number": 34,
+    "label": "Table S34",
+    "title": "Donor scores for all ten fixed-size panels",
+    "file": "Table_S34_01_combination_donors.csv",
+    "source": "enhancement/baseline/tables/01_combination_donors.csv",
+    "rows": 960
+  },
+  {
+    "number": 35,
+    "label": "Table S35",
+    "title": "Ten fixed-size panel estimates and family-adjusted inference",
+    "file": "Table_S35_01_combination_estimates.csv",
+    "source": "enhancement/baseline/tables/01_combination_estimates.csv",
+    "rows": 40
+  },
+  {
+    "number": 36,
+    "label": "Table S36",
+    "title": "Donor availability and fixed-size panel summary",
+    "file": "Table_S36_01_combination_status.csv",
+    "source": "enhancement/baseline/tables/01_combination_status.csv",
+    "rows": 4
+  },
+  {
+    "number": 37,
+    "label": "Table S37",
+    "title": "Annotated reference candidates and measured membership",
+    "file": "Table_S37_02_annotation_members.csv",
+    "source": "enhancement/baseline/tables/02_annotation_members.csv",
+    "rows": 980
+  },
+  {
+    "number": 38,
+    "label": "Table S38",
+    "title": "Paired coverage by reference and gene",
+    "file": "Table_S38_02_reference_coverage.csv",
+    "source": "enhancement/baseline/tables/02_reference_coverage.csv",
+    "rows": 132
+  },
+  {
+    "number": 39,
+    "label": "Table S39",
+    "title": "Paired differences between biological reference estimates",
+    "file": "Table_S39_02_reference_differences.csv",
+    "source": "enhancement/baseline/tables/02_reference_differences.csv",
+    "rows": 40
+  },
+  {
+    "number": 40,
+    "label": "Table S40",
+    "title": "Donor scores for biological references",
+    "file": "Table_S40_02_reference_donors.csv",
+    "source": "enhancement/baseline/tables/02_reference_donors.csv",
+    "rows": 980
+  },
+  {
+    "number": 41,
+    "label": "Table S41",
+    "title": "Biological reference estimates and inference",
+    "file": "Table_S41_02_reference_estimates.csv",
+    "source": "enhancement/baseline/tables/02_reference_estimates.csv",
+    "rows": 40
+  },
+  {
+    "number": 42,
+    "label": "Table S42",
+    "title": "Availability of biological reference comparisons",
+    "file": "Table_S42_02_reference_status.csv",
+    "source": "enhancement/baseline/tables/02_reference_status.csv",
+    "rows": 20
+  },
+  {
+    "number": 43,
+    "label": "Table S43",
+    "title": "Measured-background availability and reference span",
+    "file": "Table_S43_03_direction_status.csv",
+    "source": "enhancement/baseline/tables/03_direction_status.csv",
+    "rows": 4
+  },
+  {
+    "number": 44,
+    "label": "Table S44",
+    "title": "Relative-direction categories in the measured background",
+    "file": "Table_S44_03_direction_summary.csv",
+    "source": "enhancement/baseline/tables/03_direction_summary.csv",
+    "rows": 16
+  },
+  {
+    "number": 45,
+    "label": "Table S45",
+    "title": "Protein-level relative-direction profiles",
+    "file": "Table_S45_03_protein_profiles.csv",
+    "source": "enhancement/baseline/tables/03_protein_profiles.csv",
+    "rows": 6725
+  },
+  {
+    "number": 46,
+    "label": "Table S46",
+    "title": "Protein-by-reference estimates and descriptive intervals",
+    "file": "Table_S46_03_protein_reference_estimates.csv",
+    "source": "enhancement/baseline/tables/03_protein_reference_estimates.csv",
+    "rows": 33625
+  },
+  {
+    "number": 47,
+    "label": "Table S47",
+    "title": "C1q targets and planned comparator coverage",
+    "file": "Table_S47_04_secondary_coverage.csv",
+    "source": "enhancement/baseline/tables/04_secondary_coverage.csv",
+    "rows": 24
+  },
+  {
+    "number": 48,
+    "label": "Table S48",
+    "title": "Available donor scores in the C1q application",
+    "file": "Table_S48_04_secondary_donors.csv",
+    "source": "enhancement/baseline/tables/04_secondary_donors.csv",
+    "rows": 48
+  },
+  {
+    "number": 49,
+    "label": "Table S49",
+    "title": "C1q contrasts and planned-family inference",
+    "file": "Table_S49_04_secondary_estimates.csv",
+    "source": "enhancement/baseline/tables/04_secondary_estimates.csv",
+    "rows": 2
+  },
+  {
+    "number": 50,
+    "label": "Table S50",
+    "title": "Availability of secondary cross-reference differences",
+    "file": "Table_S50_04_secondary_reference_differences.csv",
+    "source": "enhancement/baseline/tables/04_secondary_reference_differences.csv",
+    "rows": 0
+  },
+  {
+    "number": 51,
+    "label": "Table S51",
+    "title": "Availability of planned C1q reference comparisons",
+    "file": "Table_S51_04_secondary_status.csv",
+    "source": "enhancement/baseline/tables/04_secondary_status.csv",
+    "rows": 8
+  },
+  {
+    "number": 52,
+    "label": "Table S52",
+    "title": "Magnitude curves with donor bootstrap and leave-one-donor ranges",
+    "file": "Table_S52_01_margin_curves.csv",
+    "source": "enhancement/tables/01_margin_curves.csv",
+    "rows": 36
+  },
+  {
+    "number": 53,
+    "label": "Table S53",
+    "title": "Exact background membership for each harmonization scope",
+    "file": "Table_S53_02_background_members.csv",
+    "source": "enhancement/tables/02_background_members.csv",
+    "rows": 27083
+  },
+  {
+    "number": 54,
+    "label": "Table S54",
+    "title": "Donors, exclusions and background counts for harmonization",
+    "file": "Table_S54_02_design_audit.csv",
+    "source": "enhancement/tables/02_design_audit.csv",
+    "rows": 7
+  },
+  {
+    "number": 55,
+    "label": "Table S55",
+    "title": "Paired changes in background fractions after harmonization",
+    "file": "Table_S55_02_fraction_changes.csv",
+    "source": "enhancement/tables/02_fraction_changes.csv",
+    "rows": 252
+  },
+  {
+    "number": 56,
+    "label": "Table S56",
+    "title": "Magnitude curves under harmonized references and backgrounds",
+    "file": "Table_S56_02_harmonized_curves.csv",
+    "source": "enhancement/tables/02_harmonized_curves.csv",
+    "rows": 378
+  },
+  {
+    "number": 57,
+    "label": "Table S57",
+    "title": "Shared reference lists and singleton designation",
+    "file": "Table_S57_02_reference_members.csv",
+    "source": "enhancement/tables/02_reference_members.csv",
+    "rows": 10
+  },
+  {
+    "number": 58,
+    "label": "Table S58",
+    "title": "Target-pair donor scores for observed and shared reference lists",
+    "file": "Table_S58_02_target_donors.csv",
+    "source": "enhancement/tables/02_target_donors.csv",
+    "rows": 3164
+  },
+  {
+    "number": 59,
+    "label": "Table S59",
+    "title": "Target-pair effects with Holm p values and Bonferroni intervals",
+    "file": "Table_S59_02_target_effects.csv",
+    "source": "enhancement/tables/02_target_effects.csv",
+    "rows": 118
+  },
+  {
+    "number": 60,
+    "label": "Table S60",
+    "title": "Known panel-specific population effects in the simulations",
+    "file": "Table_S60_03_known_truth.csv",
+    "source": "enhancement/tables/03_known_truth.csv",
+    "rows": 15
+  },
+  {
+    "number": 61,
+    "label": "Table S61",
+    "title": "Intensity-dependent dropout calibration parameters",
+    "file": "Table_S61_03_mnar_calibration.csv",
+    "source": "enhancement/tables/03_mnar_calibration.csv",
+    "rows": 12
+  },
+  {
+    "number": 62,
+    "label": "Table S62",
+    "title": "Estimability, missingness and analytic availability benchmarks",
+    "file": "Table_S62_03_simulation_availability.csv",
+    "source": "enhancement/tables/03_simulation_availability.csv",
+    "rows": 90
+  },
+  {
+    "number": 63,
+    "label": "Table S63",
+    "title": "Simulation performance for each reference separately",
+    "file": "Table_S63_03_simulation_per_reference.csv",
+    "source": "enhancement/tables/03_simulation_per_reference.csv",
+    "rows": 450
+  },
+  {
+    "number": 64,
+    "label": "Table S64",
+    "title": "Simulation performance by reporting strategy",
+    "file": "Table_S64_03_simulation_performance.csv",
+    "source": "enhancement/tables/03_simulation_performance.csv",
+    "rows": 360
+  },
+  {
+    "number": 65,
+    "label": "Table S65",
+    "title": "Inference and multiplicity scope by analysis family",
+    "file": "Table_S65_04_inference_map.csv",
+    "source": "enhancement/tables/04_inference_map.csv",
+    "rows": 5
+  },
+  {
+    "number": 66,
+    "label": "Table S66",
+    "title": "Paired coverage of every target and prelisted reference member",
+    "file": "Table_S66_coverage.csv",
+    "source": "three_extensions/tables/01_coverage.csv",
+    "rows": 168
+  },
+  {
+    "number": 67,
+    "label": "Table S67",
+    "title": "Availability of the complete reference family on shared donors",
+    "file": "Table_S67_family_availability.csv",
+    "source": "three_extensions/tables/02_family_availability.csv",
+    "rows": 8
+  },
+  {
+    "number": 68,
+    "label": "Table S68",
+    "title": "Shared-donor regional and relative estimates with simultaneous intervals",
+    "file": "Table_S68_shared_donor_estimates.csv",
+    "source": "three_extensions/tables/03_shared_donor_estimates.csv",
+    "rows": 18
+  },
+  {
+    "number": 69,
+    "label": "Table S69",
+    "title": "Donor-level scores for both target families",
+    "file": "Table_S69_donor_scores.csv",
+    "source": "three_extensions/tables/04_donor_scores.csv",
+    "rows": 690
+  },
+  {
+    "number": 70,
+    "label": "Table S70",
+    "title": "Paired differences between reference contrasts",
+    "file": "Table_S70_reference_differences.csv",
+    "source": "three_extensions/tables/05_reference_differences.csv",
+    "rows": 19
+  },
+  {
+    "number": 71,
+    "label": "Table S71",
+    "title": "Influence of individual members on fixed-donor reference scores",
+    "file": "Table_S71_member_influence.csv",
+    "source": "three_extensions/tables/06_member_influence.csv",
+    "rows": 53
+  },
+  {
+    "number": 72,
+    "label": "Table S72",
+    "title": "Panel-specific sensitivity estimates using available donors",
+    "file": "Table_S72_panel_specific_donors.csv",
+    "source": "three_extensions/tables/07_panel_specific_donors.csv",
+    "rows": 40
+  },
+  {
+    "number": 73,
+    "label": "Table S73",
+    "title": "Family decisions at zero and 0.2 log2 margins",
+    "file": "Table_S73_decisions.csv",
+    "source": "three_extensions/tables/08_decisions.csv",
+    "rows": 16
+  },
+  {
+    "number": 74,
+    "label": "Table S74",
+    "title": "Coverage of additional candidate complement and lipid panels",
+    "file": "Table_S74_candidate_coverage.csv",
+    "source": "three_extensions/tables/09_candidate_coverage.csv",
+    "rows": 120
+  },
+  {
+    "number": 75,
+    "label": "Table S75",
+    "title": "Empirical covariance calibration groups and model diagnostics",
+    "file": "Table_S75_covariance_models.csv",
+    "source": "three_extensions/tables/10_covariance_models.csv",
+    "rows": 2
+  },
+  {
+    "number": 76,
+    "label": "Table S76",
+    "title": "Joint regional-change and adjacent-intensity covariance matrices",
+    "file": "Table_S76_joint_covariance.csv",
+    "source": "three_extensions/tables/11_joint_covariance.csv",
+    "rows": 2080
+  },
+  {
+    "number": 77,
+    "label": "Table S77",
+    "title": "Reference contrast coefficients for empirical simulations",
+    "file": "Table_S77_contrast_coefficients.csv",
+    "source": "three_extensions/tables/12_contrast_coefficients.csv",
+    "rows": 128
+  },
+  {
+    "number": 78,
+    "label": "Table S78",
+    "title": "Known reference-specific effects for empirical simulations",
+    "file": "Table_S78_simulation_truths.csv",
+    "source": "three_extensions/tables/13_simulation_truths.csv",
+    "rows": 32
+  },
+  {
+    "number": 79,
+    "label": "Table S79",
+    "title": "Calibration of intensity-dependent missingness",
+    "file": "Table_S79_missingness_calibration.csv",
+    "source": "three_extensions/tables/14_missingness_calibration.csv",
+    "rows": 48
+  },
+  {
+    "number": 80,
+    "label": "Table S80",
+    "title": "Estimability across empirical-correlation simulation scenarios",
+    "file": "Table_S80_simulation_availability.csv",
+    "source": "three_extensions/tables/15_simulation_availability.csv",
+    "rows": 360
+  },
+  {
+    "number": 81,
+    "label": "Table S81",
+    "title": "Method-specific error, coverage and power in empirical simulations",
+    "file": "Table_S81_simulation_methods.csv",
+    "source": "three_extensions/tables/16_simulation_methods.csv",
+    "rows": 1800
+  },
+  {
+    "number": 82,
+    "label": "Table S82",
+    "title": "Reference-specific performance in empirical simulations",
+    "file": "Table_S82_simulation_by_reference.csv",
+    "source": "three_extensions/tables/17_simulation_by_reference.csv",
+    "rows": 1440
+  },
+  {
+    "number": 83,
+    "label": "Table S83",
+    "title": "Full-class point thresholds under a specified shift in incomplete comparators",
+    "file": "Table_S83_full_class_tipping_points.csv",
+    "source": "tipping_point_analysis",
+    "rows": 3
+  }
+]

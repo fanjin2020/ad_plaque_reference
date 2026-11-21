@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "margins_log2": [0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4],
+  "harmonization_scopes": {
+    "three_larger_groups": [["Leitner", "AD"], ["Marta-Ariza", "EOAD"], ["Marta-Ariza", "LOAD"]],
+    "all_four_groups": [["Leitner", "AD"], ["Marta-Ariza", "EOAD"], ["Marta-Ariza", "LOAD"], ["Drummond 2022", "eoAD"]]
+  },
+  "minimum_members_for_class_label": 2,
+  "selection_disclosure": "Exploratory extension designed after inspection of the original data and prior results, including the 0.1 and 0.2 log2 descriptive margin counts. Not preregistered or independent validation. Margins are sensitivity settings, not established biological cutoffs.",
+  "simulation": {
+    "sample_sizes": [5, 20, 53],
+    "correlations": [0.2, 0.6],
+    "missingness": [["complete", 0], ["MCAR", 0.2], ["MNAR", 0.2], ["MCAR", 0.4], ["MNAR", 0.4]],
+    "minimum_complete_donors": 3,
+    "sd_regional_change": 0.5,
+    "sd_adjacent_intensity": 1.0,
+    "mnar_logistic_slope": 1.5,
+    "calibration_draws": 50000,
+    "target_indices": [0, 1],
+    "reference_indices": [[2, 3, 4], [2, 3, 5], [3, 4, 6], [2, 5, 7], [5, 6, 7]],
+    "truths": {
+      "all_null": [0, 0, 0, 0, 0, 0, 0, 0],
+      "target_shift": [0.3, 0.3, 0, 0, 0, 0, 0, 0],
+      "reference_heterogeneity": [0.2, 0.2, -0.4, 0, 0.2, 0.4, 0.6, 0.8]
+    }
+  }
+}

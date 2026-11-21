@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "alpha": 0.05,
+  "minimum_donors": 5,
+  "margins_log2": [
+    0,
+    0.2
+  ],
+  "applications": [
+    {
+      "name": "lysosomal_anchor",
+      "targets": [
+        "CTSD",
+        "TPP1"
+      ],
+      "primary_reference": "v_atpase",
+      "references": {
+        "v_atpase": [
+          "ATP6V0A1",
+          "ATP6V1A",
+          "ATP6V1B2",
+          "ATP6V1C1",
+          "ATP6V1D",
+          "ATP6V1E1",
+          "ATP6V1G2",
+          "ATP6V1H"
+        ],
+        "lysosomal_lumen_hydrolases": [
+          "ASAH1",
+          "CTSB",
+          "GAA",
+          "HSP90AA1",
+          "HSPA8",
+          "PLD3",
+          "PPT1"
+        ],
+        "ec3_lysosomal_lumen": [
+          "ASAH1",
+          "CTSB",
+          "GAA",
+          "PLD3",
+          "PPT1"
+        ],
+        "ec3_lysosome": [
+          "ASAH1",
+          "CTSB",
+          "GAA",
+          "LYZ",
+          "OCRL",
+          "PADI2",
+          "PLD3",
+          "PPT1",
+          "PRDX6",
+          "USP5"
+        ],
+        "ec34_lysosome": [
+          "CTSB",
+          "USP5"
+        ]
+      },
+      "question": "How do fixed measured lysosomal reference definitions change the CTSD/TPP1 regional contrast?",
+      "selection_disclosure": "The Leitner observed reference lists are frozen from v5; when applied to another group, absent members make that fixed family unavailable.",
+      "interpretation": "Reference-specific regional protein enrichment, not enzyme activity or lysosomal pH."
+    },
+    {
+      "name": "apoe_lipid",
+      "targets": [
+        "APOE"
+      ],
+      "primary_reference": "apod_clu",
+      "references": {
+        "apod_clu": [
+          "APOD",
+          "CLU"
+        ],
+        "apoa1_apod_clu": [
+          "APOA1",
+          "APOD",
+          "CLU"
+        ],
+        "lrp1_sort1": [
+          "LRP1",
+          "SORT1"
+        ]
+      },
+      "question": "Does APOE plaque-to-adjacent enrichment exceed named lipoprotein-associated proteins and two ApoE-binding endocytic receptors?",
+      "selection_disclosure": "Exploratory extension designed after inspection of v5 and existing data. Coverage was checked before this new application was executed. APOE enrichment was already known; this is not independent confirmation or preregistration.",
+      "interpretation": "APOD/CLU is the designated primary comparison; adding APOA1 changes the named lipoprotein panel. LRP1/SORT1 asks a separate receptor-relative question. No claim of receptor inhibition, lipid flux, cellular origin or exhaustive class coverage.",
+      "rationale": {
+        "apod_clu": "ApoD and apoJ/clusterin were identified in human CSF lipoprotein fractions; a named brain-lipoprotein comparison.",
+        "apoa1_apod_clu": "Adds apoA-I, reported in distinct human CSF lipoprotein classes; nested membership sensitivity on shared donors.",
+        "lrp1_sort1": "LRP1 and sortilin have experimental evidence as ApoE-related endocytic receptors; a distinct functional comparator, not an interchangeable normalizer."
+      },
+      "sources": [
+        {
+          "title": "Characterization of four lipoprotein classes in human cerebrospinal fluid",
+          "year": 2001,
+          "url": "https://www.jlr.org/article/S0022-2275(20)31605-9/fulltext",
+          "supports": [
+            "apod_clu",
+            "apoa1_apod_clu"
+          ]
+        },
+        {
+          "title": "The pro-neurotrophin receptor sortilin is a major neuronal apolipoprotein E receptor for catabolism of amyloid-beta peptide in the brain",
+          "year": 2013,
+          "doi": "10.1523/JNEUROSCI.2425-12.2013",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23283348/",
+          "supports": [
+            "SORT1"
+          ]
+        },
+        {
+          "title": "Amyloid precursor protein regulates brain apolipoprotein E and cholesterol metabolism through lipoprotein receptor LRP1",
+          "year": 2007,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17920016/",
+          "supports": [
+            "LRP1"
+          ]
+        }
+      ]
+    }
+  ],
+  "coverage_screen": [
+    {
+      "name": "C3_complement_candidates",
+      "targets": [
+        "C3"
+      ],
+      "references": {
+        "C1q": [
+          "C1QA",
+          "C1QB",
+          "C1QC"
+        ],
+        "terminal": [
+          "C5",
+          "C6",
+          "C7",
+          "C8A",
+          "C8B",
+          "C8G",
+          "C9"
+        ],
+        "regulators": [
+          "CFH",
+          "CFI",
+          "C4BPA",
+          "C4BPB"
+        ]
+      }
+    },
+    {
+      "name": "APOE_lipid_candidates",
+      "targets": [
+        "APOE"
+      ],
+      "references": {
+        "apod_clu": [
+          "APOD",
+          "CLU"
+        ],
+        "apoa1_apod_clu": [
+          "APOA1",
+          "APOD",
+          "CLU"
+        ],
+        "lrp1_sort1": [
+          "LRP1",
+          "SORT1"
+        ],
+        "ldlr_family": [
+          "LRP1",
+          "LDLR",
+          "VLDLR",
+          "LRP2",
+          "LRP8"
+        ],
+        "remodeling": [
+          "LPL",
+          "PLTP",
+          "LCAT",
+          "CETP"
+        ]
+      }
+    }
+  ],
+  "simulation": {
+    "sample_sizes": [
+      5,
+      20,
+      53
+    ],
+    "generators": [
+      "gaussian_empirical",
+      "gaussian_shrinkage",
+      "donor_resampling"
+    ],
+    "missingness": [
+      [
+        "complete",
+        0
+      ],
+      [
+        "MCAR",
+        0.1
+      ],
+      [
+        "MNAR",
+        0.1
+      ],
+      [
+        "MCAR",
+        0.2
+      ],
+      [
+        "MNAR",
+        0.2
+      ]
+    ],
+    "minimum_complete_donors": 3,
+    "calibration_minimum_donors": 30,
+    "diagonal_shrinkage": 0.1,
+    "calibration_draws": 10000,
+    "mnar_slope": 1.5,
+    "inference_scope": "Conditional on estimated complete-donor covariance; no universal type-I guarantee under MNAR."
+  }
+}

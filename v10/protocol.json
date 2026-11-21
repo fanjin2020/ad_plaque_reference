@@ -1,0 +1,60 @@
+{
+  "seed": 20261120,
+  "v9_seed": 20261119,
+  "external_source": {
+    "name": "thierry_2026_tangle_R1.xlsx",
+    "url": "https://static-content.springer.com/esm/art%3A10.1007%2Fs00401-026-03064-9/MediaObjects/401_2026_3064_MOESM1_ESM.xlsx",
+    "article": "https://doi.org/10.1007/s00401-026-03064-9",
+    "bytes": 1024022,
+    "sha256": "b06a14cc700d5a6238df9220f26ac1824fbecf377f7f26960fbd8af4242fa285"
+  },
+  "external_groups": {
+    "ADV": {"group": "Advanced AD", "donors": 6},
+    "INTER": {"group": "Intermediate AD", "donors": 6},
+    "PART": {"group": "PART", "donors": 5}
+  },
+  "external_application": {
+    "name": "mapt_tangle",
+    "targets": ["MAPT"],
+    "primary_reference": "neuronal_cytoskeleton",
+    "references": {
+      "neuronal_cytoskeleton": ["MAP2", "TUBB3", "NEFL", "NEFM"],
+      "synaptic_proteins": ["SNAP25", "SYP", "STX1A", "SYT1"]
+    },
+    "question": "Does the paired regional change in MAPT exceed each of two named neuronal reference panels?",
+    "selection_disclosure": "Advanced AD is the primary application and intermediate AD and PART are separate comparisons. Target and reference sets were specified after checking measurement coverage and before calculating the effects in this extension.",
+    "interpretation": "Tangle-to-adjacent-neuropil contrast in published normalized protein intensities."
+  },
+  "external_accessions": {
+    "MAPT": "P10636", "MAP2": "P11137", "TUBB3": "Q13509", "NEFL": "P07196", "NEFM": "P07197",
+    "SNAP25": "P60880", "SYP": "P08247", "STX1A": "Q16623", "SYT1": "P21579"
+  },
+  "observed_bootstrap_draws": 10000,
+  "bayes": {
+    "draws": 100000,
+    "prior_mean_precision": 0.01,
+    "prior_sd_log2": [0.25, 0.5, 1.0],
+    "default_prior_sd_log2": 0.5,
+    "primary_reference_probabilities": [0.5, 0.75]
+  },
+  "gls": {
+    "diagonal_shrinkage": 0.25,
+    "unconstrained_condition_limit": 10000000000
+  },
+  "ssr": {
+    "v9_repetitions": 2000,
+    "boundary_repetitions": 1000,
+    "desired_false_positive_rate": 0.05,
+    "span_tolerance_log2": 1e-12,
+    "minimum_true_effect_log2": [-0.02, 0.0, 0.02, 0.18, 0.20, 0.22, 0.30],
+    "true_span_log2": [0.05, 0.20, 0.45],
+    "regional_mean_log2": 0.30,
+    "negative_regional_challenge": [0.05, 0.25],
+    "sample_sizes": [20, 53],
+    "missingness": [["complete", 0], ["MCAR", 0.1], ["MNAR", 0.1]],
+    "partitions": {
+      "calibration": {"generator": "gaussian_shrinkage", "profile": "forward"},
+      "held_out": {"generator": "donor_resampling", "profile": "reverse"}
+    }
+  }
+}

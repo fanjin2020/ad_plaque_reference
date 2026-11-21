@@ -1,0 +1,14 @@
+{
+  "Data_S2/matched_draws.csv": "Per-draw scores for all 24 Table S30 conditions",
+  "Data_S2/caa_donors.csv": "Linked tissue scores for six donors under the two reference definitions",
+  "Data_S2/regional_enzyme_donors.csv": "Regional CTSD and TPP1 change and the within-donor difference",
+  "Data_S2/coverage_steps.csv": "Counts from candidate annotation to complete pairs at each threshold",
+  "Data_S2/design_map_crosschecks.csv": "Independent-missingness design probabilities and simulation check settings",
+  "Data_S2/paired_geometry.csv": "Re-encoded Leitner donor rows for the two illustrative references per target family",
+  "Data_S2/paired_summary.csv": "Point estimates and original Bonferroni simultaneous intervals for the four comparisons",
+  "Data_S2/pump_panel.csv": "Study pump-reference accessions",
+  "Data_S2/simulation_checks.csv": "All-null empirical Gaussian scenarios drawn from Table S80",
+  "Data_S2/structure_mapping.csv": "Accession mapping between pump-reference members and PDB entry 6WM2",
+  "Data_S2/virtual_cells.csv": "Deterministic synthetic display coordinates and intensities for the virtual field",
+  "Data_S2/virtual_profiles.csv": "Synthetic distance-band means relative to the last band"
+}

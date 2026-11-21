@@ -1,0 +1,106 @@
+{
+  "Figure 1": {
+    "file": "Fig1_tissue",
+    "tiff_dpi": 450
+  },
+  "Figure 2": {
+    "file": "Fig2_cases",
+    "tiff_dpi": 400
+  },
+  "Figure 3": {
+    "file": "Fig3_paired_geometry",
+    "tiff_dpi": 450
+  },
+  "Figure 4": {
+    "file": "Fig4_background",
+    "tiff_dpi": 300
+  },
+  "Figure 5": {
+    "file": "Fig5_reference_drivers",
+    "tiff_dpi": 450
+  },
+  "Figure 6": {
+    "file": "Fig6_matched_panels",
+    "tiff_dpi": 450
+  },
+  "Figure 7": {
+    "file": "Fig7_empirical",
+    "tiff_dpi": 450
+  },
+  "Figure 8": {
+    "file": "Fig8_decision",
+    "tiff_dpi": 400
+  },
+  "Figure S1": {
+    "file": "FigS1_enzymes",
+    "tiff_dpi": 600
+  },
+  "Figure S2": {
+    "file": "FigS2_fixed_panels",
+    "tiff_dpi": 300
+  },
+  "Figure S3": {
+    "file": "FigS3_C1q_coverage",
+    "tiff_dpi": 300
+  },
+  "Figure S4": {
+    "file": "FigS4_direction_profiles",
+    "tiff_dpi": 300
+  },
+  "Figure S5": {
+    "file": "FigS5_group_references",
+    "tiff_dpi": 450
+  },
+  "Figure S6": {
+    "file": "FigS6_equicorrelation",
+    "tiff_dpi": 300
+  },
+  "Figure S7": {
+    "file": "FigS7_DS_APOE",
+    "tiff_dpi": 350
+  },
+  "Figure S8": {
+    "file": "FigS8_specifications",
+    "tiff_dpi": 400
+  },
+  "Figure S9": {
+    "file": "FigS9_membership",
+    "tiff_dpi": 350
+  },
+  "Figure S10": {
+    "file": "FigS10_harmonization",
+    "tiff_dpi": 300
+  },
+  "Figure S11": {
+    "file": "FigS11_fixed_donor_membership",
+    "tiff_dpi": 600
+  },
+  "Figure S12": {
+    "file": "FigS12_family_span",
+    "tiff_dpi": 450
+  },
+  "Figure S13": {
+    "file": "FigS13_linked_CAA",
+    "tiff_dpi": 450
+  },
+  "Figure S14": {
+    "file": "FigS14_donor_distributions",
+    "tiff_dpi": 450
+  },
+  "Figure S15": {
+    "file": "FigS15_estimability_map",
+    "tiff_dpi": 450
+  },
+  "Figure S16": {
+    "file": "FigS16_virtual_section",
+    "tiff_dpi": 450
+  },
+  "Figure S17": {
+    "file": "FigS17_pump_structure",
+    "tiff_dpi": 450
+  },
+  "Table of contents graphic": {
+    "file": "TOC_graphic",
+    "tiff_dpi": 450
+  }
+}

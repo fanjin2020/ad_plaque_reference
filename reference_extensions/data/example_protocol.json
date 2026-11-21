@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "alpha": 0.05,
+  "minimum_donors": 5,
+  "margins_log2": [
+    0,
+    0.2
+  ],
+  "applications": [
+    {
+      "name": "synthetic_demo",
+      "targets": [
+        "TARGET"
+      ],
+      "primary_reference": "carriers",
+      "references": {
+        "carriers": [
+          "CARRIER_A",
+          "CARRIER_B"
+        ],
+        "receptors": [
+          "RECEPTOR_A",
+          "RECEPTOR_B"
+        ]
+      },
+      "question": "Synthetic example of a paired target/reference comparison.",
+      "selection_disclosure": "Artificial toy data; not biological results.",
+      "interpretation": "Interface demonstration only."
+    }
+  ],
+  "coverage_screen": [],
+  "simulation": {
+    "sample_sizes": [
+      5,
+      20
+    ],
+    "generators": [
+      "gaussian_empirical"
+    ],
+    "missingness": [
+      [
+        "complete",
+        0
+      ]
+    ],
+    "minimum_complete_donors": 3,
+    "calibration_minimum_donors": 10,
+    "diagonal_shrinkage": 0.1,
+    "calibration_draws": 10000,
+    "mnar_slope": 1.5,
+    "inference_scope": "Conditional on estimated complete-donor covariance; no universal type-I guarantee under MNAR."
+  }
+}

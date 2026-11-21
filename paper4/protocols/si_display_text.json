@@ -1,0 +1,62 @@
+{
+  "reading_guide": [
+    {
+      "Question": "Target or phenotype",
+      "First files to open": "Data S1 fixed_estimates, panel_specific and fixed_decisions. Tables S66–S73 give the primary groups."
+    },
+    {
+      "Question": "Coverage and reference choice",
+      "First files to open": "Data S1 family_summary, candidate_coverage and ordered_specifications. Tables S17, S20, S26–S28 and S83 cover membership and missing-data sensitivity."
+    },
+    {
+      "Question": "Background and inference",
+      "First files to open": "Data S1 background_summary, background_proteins, genotype_estimates and equivalence. Tables S52–S59 provide harmonized comparisons."
+    },
+    {
+      "Question": "Simulation and calibration",
+      "First files to open": "Tables S30 and S80–S82. Per-draw benchmark scores and design-map checks appear in Data S2."
+    },
+    {
+      "Question": "Inputs of the revised figures",
+      "First files to open": "Data S2 includes the linked CAA and regional-enzyme scores, reference geometry, synthetic field and pump accession map."
+    }
+  ],
+  "archive_index": [
+    {
+      "Tables": "S1–S16",
+      "Contents": "Original donor-paired enzyme, external tissue and enzyme-specific comparisons"
+    },
+    {
+      "Tables": "S17–S32",
+      "Contents": "Coverage, reference substitutions, tissue models, matched panels and study-level contrasts"
+    },
+    {
+      "Tables": "S33–S51",
+      "Contents": "Constant-size panels, annotation coverage, background direction and complement analyses"
+    },
+    {
+      "Tables": "S52–S59",
+      "Contents": "Effect-margin curves, common backgrounds, shared membership and target estimates"
+    },
+    {
+      "Tables": "S60–S65",
+      "Contents": "Equicorrelation simulations and inference families"
+    },
+    {
+      "Tables": "S66–S74",
+      "Contents": "Fixed-family coverage, shared donor estimates, influence, panel-specific and decision results"
+    },
+    {
+      "Tables": "S75–S79",
+      "Contents": "Empirical covariance, coefficients, truth and missingness calibration"
+    },
+    {
+      "Tables": "S80–S82",
+      "Contents": "Empirical simulation availability and method- and reference-specific performance"
+    },
+    {
+      "Tables": "S83",
+      "Contents": "Full-class sensitivity thresholds and translated limits under fixed assumptions"
+    }
+  ]
+}

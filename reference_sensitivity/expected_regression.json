@@ -1,0 +1,55 @@
+{
+  "Leitner|AD": {
+    "n": 53,
+    "background": 2157,
+    "reference_estimates": {
+      "v_atpase": 0.8332312916809741,
+      "lysosomal_lumen_hydrolases": 0.27405838567935453,
+      "ec3_lysosomal_lumen": 0.03744513313726628,
+      "ec3_lysosome": 0.3113422573737471,
+      "ec34_lysosome": 0.4656425062215603
+    },
+    "combination_n": 53,
+    "combination_min": -0.08312155765555744,
+    "combination_max": 0.18014251061206504
+  },
+  "Marta-Ariza|EOAD": {
+    "n": 20,
+    "background": 1473,
+    "reference_estimates": {
+      "v_atpase": 0.850001514833312,
+      "lysosomal_lumen_hydrolases": 0.35167950489666,
+      "ec3_lysosomal_lumen": 0.04498635016007478,
+      "ec3_lysosome": 0.26937621127867273,
+      "ec34_lysosome": 0.6369305025827648
+    },
+    "combination_n": 19,
+    "combination_min": -0.06321230907073538,
+    "combination_max": 0.2880960671219348
+  },
+  "Marta-Ariza|LOAD": {
+    "n": 20,
+    "background": 1615,
+    "reference_estimates": {
+      "v_atpase": 0.8212472095540615,
+      "lysosomal_lumen_hydrolases": 0.23878948642378495,
+      "ec3_lysosomal_lumen": -0.006730936311176094,
+      "ec3_lysosome": 0.14271372301366186,
+      "ec34_lysosome": 0.052756729085148654
+    },
+    "combination_n": 20,
+    "combination_min": -0.18155108390775837,
+    "combination_max": 0.12974834299560653
+  },
+  "Drummond 2022|eoAD": {
+    "n": 5,
+    "background": 1480,
+    "reference_estimates": {
+      "v_atpase": 0.7774379735000004,
+      "lysosomal_lumen_hydrolases": 0.32394205833333345,
+      "ec3_lysosomal_lumen": 0.07292766650000022,
+      "ec3_lysosome": 0.5885591941111115,
+      "ec34_lysosome": 0.45804157499999965
+    }
+  }
+}
