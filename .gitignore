@@ -1,0 +1,7 @@
+/.paper4-env/
+/.paper4-work-*/
+/results/
+/results_*/
+__pycache__/
+*.py[cod]
+.DS_Store

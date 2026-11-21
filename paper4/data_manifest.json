@@ -1,0 +1,44 @@
+[
+  {
+    "name": "leitner_2026_S5.xlsx",
+    "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs13195-026-02187-1/MediaObjects/13195_2026_2187_MOESM5_ESM.xlsx",
+    "bytes": 10864162,
+    "sha256": "df70f5b9aad406ad5a320a3cc0f9ada4bcf5eb630624c0c9f759e4caa91731eb",
+    "article": "https://doi.org/10.1186/s13195-026-02187-1"
+  },
+  {
+    "name": "marta_2025_S10.xlsx",
+    "url": "https://static-content.springer.com/esm/art%3A10.1007%2Fs00401-025-02844-z/MediaObjects/401_2025_2844_MOESM10_ESM.xlsx",
+    "bytes": 8619934,
+    "sha256": "da46728a666766b66fc05ba1e7bc3aded5bcbb6e17683bf7856df4f61762385d",
+    "article": "https://doi.org/10.1007/s00401-025-02844-z"
+  },
+  {
+    "name": "drummond2022_plaque_supp.xlsx",
+    "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs40478-022-01356-1/MediaObjects/40478_2022_1356_MOESM1_ESM.xlsx",
+    "bytes": 4648068,
+    "sha256": "cb55fdf63c0063b6b18eb3503d1233c882ec4a7ef48e16e18cfb2f1c353aa22c",
+    "article": "https://doi.org/10.1186/s40478-022-01356-1"
+  },
+  {
+    "name": "leitner_2024_caa_S2.xlsx",
+    "url": "https://static-content.springer.com/esm/art%3A10.1007%2Fs00401-024-02767-1/MediaObjects/401_2024_2767_MOESM2_ESM.xlsx",
+    "bytes": 2070631,
+    "sha256": "cd3140d39605ac2f31e829e2a5f12ceec3f8dd653fc85537879a52f6adca2b66",
+    "article": "https://doi.org/10.1007/s00401-024-02767-1"
+  },
+  {
+    "name": "xiong_2019_table1.xlsx",
+    "url": "https://ars.els-cdn.com/content/image/1-s2.0-S1552526018335805-mmc2.xlsx",
+    "bytes": 3475760,
+    "sha256": "911ae6c1fd61db37253d2937d4d21975534466daccefc353dc85daaa7e43d8f6",
+    "article": "https://doi.org/10.1016/j.jalz.2018.10.006"
+  },
+  {
+    "name": "6WM2.cif.gz",
+    "url": "https://files.rcsb.org/download/6WM2.cif.gz",
+    "bytes": 1648669,
+    "sha256": "bff31536a739100360288ae5058a16b29cea68e15d8ad412a052edc4fd771a32",
+    "article": "https://doi.org/10.2210/pdb6wm2/pdb"
+  }
+]
